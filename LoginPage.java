@@ -15,6 +15,7 @@ public class LoginPage {
 	//Global Variable 
 	WebDriver driver;
 	Properties pro;
+        // Instead of xpath we are using find method to find element
 	
 	@FindBy(name="email")   //Using inspect, you have to check 
 	WebElement emailID;
